@@ -1,0 +1,369 @@
+* { 
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+#main {
+    text-align: center;
+    width: 100%;
+}
+#first {
+    width: 1200px;
+    height: 60px;
+    margin: 10px auto;
+    overflow: hidden;
+}
+#logo {
+    float: left;
+    margin-left: 100px;
+}
+#logo img {
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#content {
+    float: right;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+#content span {
+    height: 20px;
+}
+#second {
+    margin-bottom: 150px;
+}
+#second  img {
+    width: 100%;
+    height: 500px;
+}
+#letter1 {
+    width: 1200px;
+    text-align: left;
+    margin: 0 auto;
+}
+#newest {
+    font-family: "SimHei";
+    font-size: 36px;
+    color: #000000;
+    margin-right: 26px;
+    margin-left: 27px;
+}
+#eng {
+    font-family: "SimHei";
+    font-size: 20px;
+    color: #adacac;
+}
+#letter1 hr {
+    height: 3px;
+    color: #f81d1d;
+    border: none;
+    width: 488px;
+    margin-top: 16px;
+    background-color: #f81d1d;
+}
+#six-img {
+    width: 1200px;
+    overflow: hidden;
+    margin:52px auto 11px auto;
+}
+.img1 {
+    height: 264px;
+    width: 350px;
+}
+#li {
+    height: 404px;
+    width: 350px;
+    float: left;
+    margin-bottom: 110px;
+}
+#six-img ul {
+    margin: 0 auto;
+}
+.describe {
+    font-size: 18px;
+    color: #838080;
+    text-indent:  2em;
+    text-align: left;
+    width: 323px;
+    line-height: 28px;
+    font-family: "SimHei";
+}
+.img2 {
+    width: 348px;
+    height: 54px;
+    border: 1px solid #000000;
+    background-color: #000000;
+    opacity: 0.35;
+    margin-top: -172px;
+    display: block;
+}
+.word {
+    color: #ffffff;
+    font-family: "黑体";
+    font-size: 14px;
+    margin-top: -36px;
+    margin-left: 119px;
+    position: absolute;
+    z-index: 1;
+}
+#fourth {
+    clear: both;
+}
+#back {
+    width: 100%;
+    height: 600px;
+}
+#thr-imgs {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    top: -370px;
+}
+#img-div {
+    float: left;
+    width: 150px;
+    height: 168px;
+}
+#img-div img {
+    width: 90px;
+    height: 90px;
+	transition: all 2s;
+}
+#img-div img:hover{
+    transform: scale(1.2);
+    width: 180px;
+    height: 180px;
+}
+#img-div div {
+    font-family: "Microsoft YaHei";
+    font-size: 30px;
+    color: #fffefe;
+    margin-top: 38px;
+    letter-spacing: 5px;
+}
+#fifth {
+    margin-top: -155px;
+    background-color: #e4e4e4;
+}
+#newh {
+    top: 2500px;
+    width: 100%;
+    position: absolute;
+}
+#newd {
+    font-family: "SemHei";
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+#hr1 {
+    width: 40px;
+    height: 4px;
+    background-color: #000000;
+    border: none;
+    margin: 0 auto;
+    margin-top: -3px;
+}
+#hr2 {
+    height: 2px;
+    border: none;
+    background-color: #c7b9b9;
+    width: 222px;
+    margin: 0 auto;
+}
+#box {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+#big-box {
+    width: 664px;
+    float: left;
+}
+#tit{
+    text-align: left;
+    margin-bottom: 7px;
+    letter-spacing: 2px;
+}
+#com-new {
+    font-family: "SemiHei";
+    font-size: 24px;
+    color: #000;
+    margin-left: 11px;
+    margin-right: 69px;
+    margin-bottom: 7px;
+}
+#industry-new {
+    font-family: "SemiHei";
+    font-size: 24px;
+    color:#adacac;
+}
+#hr4 {
+    height: 1px;
+    background-color: #0084ff;
+    border: none;
+    width: 96px;
+    margin-bottom: 50px;
+    margin-left: 11px;
+    margin-top: -1px;
+}
+#hr3 {
+    width: 664px;
+    height: 1px;
+    background-color: #adacac;
+    border: none; 
+}
+#more {
+    color: #00a8ff;
+    font-size: 20px;
+    font-family: "SemHei";
+    letter-spacing: 1px;
+    margin-left: 268px;
+}
+.add {
+    font-size: 16px;
+    margin-left: 11px;
+}
+#list {
+    overflow: hidden;
+}
+#list img {
+    float: left;
+}
+#eldiv {
+    width: 346px;
+    float: right;
+}
+.news-content {
+    width: 346px;
+    color: #000;
+    text-align: left;
+    padding-bottom: 2px;
+    padding-top: 4px;
+    border-bottom: 1px dashed #a7a7a7;
+    font-size: 16px;
+    overflow: hidden;
+}
+.num {
+    color: #ff0d0d;
+    float: left;
+    margin-top: -5px;
+    font-size: 24px;
+    margin-right: 10px;
+    font-family: "SemHei";
+}
+.date {
+    float: right;
+    margin-bottom: -5px;
+}
+#others {
+    width: 361px;
+    float: right;
+    text-align: left;
+}
+#com-questions { 
+    font-family: "SemiHei";
+    font-size: 24px;
+    color: #000;
+    letter-spacing: 2px;
+}
+#more-j {
+    display: inline;
+    color: #00a8ff;
+    font-size: 20px;
+    font-family: "SemHei";
+    letter-spacing: 1px;
+    margin-left: 160px;
+}
+#tit-1 {
+    margin-bottom: 7px;
+}
+#hr5 {
+    height: 1px;
+    background-color: #a6a6a6;
+    border: none;
+    margin-bottom: 10px;
+}
+#words {
+    font-size: 18px;
+    width: 334px;
+    font-weight: bold;
+}
+.sin {
+    margin-right: 24px;
+    padding: 0 3px;
+    color: #ffffff;
+    margin-left: 4px;
+    line-height: 25px;
+    border: 1px solid #a6a6a6;
+    background-color: #a6a6a6;
+    border-radius: 20%;
+    vertical-align: middle;
+}
+.sing {
+    margin-right: 22px;
+    color: #ffffff;
+    padding: 0 3px;
+    margin-left: 4px;
+    line-height: 25px;
+    border: 1px solid #16a8f9;
+    background-color: #16a8f9;
+    border-radius: 20%;
+    vertical-align: middle;
+}
+.mar {
+    line-height: 32px;
+    margin-bottom: 38px;
+}
+#back {
+    position: relative;
+    z-index: 1;
+    height: 400px;
+    border: 1px solid #000000;
+    background-color: #000000;
+    opacity: 0.7;
+}
+#fiimg {
+    margin-top: -300px;
+    margin-right: 220px;
+    position: relative;
+    z-index: 2;
+}
+#sixth img {
+    height: 65px; 
+    width: 85px;
+    margin-left: 250px;
+}
+#thr {
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+    margin-top: 20px;
+    font-size: 15px;
+}
+#thr div {
+    float: left;
+}
+.lix {
+    margin-right: 45px;
+}
+.lixd {
+    width: 220px;
+    margin-top: 20px;
+    float: left;
+    text-align: left;
+}
+#seventh {
+    border: 1px solid #000000;
+    background-color: #000000;
+    height: 30px;
+}
+#seventh span {
+    color: #eeeeee;
+    font-size: 20px;
+    vertical-align: super;
+}
+
