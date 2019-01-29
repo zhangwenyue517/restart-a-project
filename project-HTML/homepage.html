@@ -13,11 +13,11 @@
                   <img src="E:/PROJECT/screenshot/homepage1.png"/>  
                 </div>
                 <div id="content">
-                    <span>首页</span>
-                    <span>公司介绍</span>
-                    <span>新闻中心</span>
-                    <span>产品中心</span>
-                    <span>联系我们</span>
+                    <span id="home">首页</span>
+                    <a href="E:/PROJECT/project-HTML/com-intro.html"><span class="a-other">公司介绍</span></a>
+                    <a href="E:/PROJECT/project-HTML/news-cent.html"><span class="a-other">新闻中心</span></a>
+                    <a href="E:/PROJECT/project-HTML/prod-cent.html"><span class="a-other">产品中心</span></a>
+                    <a href="E:/PROJECT/project-HTML/cont-us.html"><span class="a-other">联系我们</span></a>
                 </div>
             </div>
             <div id="second">
@@ -37,6 +37,9 @@
                             </div>
                             <div class="img2"></div>
                             <div class="word">K8&nbsp;H7&nbsp;LED&nbsp;前大灯</div>
+                            <div id="check">
+                                <div id="check-more">查看更多</div>
+                            </div>
                         </li>
                         <li id="li" style="margin-right: 75px;">
                             <img src="E:/PROJECT/screenshot/homepage4.png" class="img1">
@@ -84,15 +87,15 @@
             <div id="fourth">
                 <img src="E:/PROJECT/screenshot/homepage9.png" id="back">
                 <div id="thr-imgs">
-                    <div id="img-div" style="margin-right: 293px;margin-left: 82px;">
+                    <div class="img-div" style="margin-right: 293px;margin-left: 82px;">
                         <img src="E:/PROJECT/screenshot/homepage10.png">
                         <div>质量保证</div>
                     </div>
-                    <div id="img-div" style="margin-right: 293px;">
+                    <div class="img-div" style="margin-right: 293px;">
                         <img src="E:/PROJECT/screenshot/homepage11.png">
                         <div>客户至上</div>
                     </div>
-                    <div id="img-div">
+                    <div class="img-div">
                         <img src="E:/PROJECT/screenshot/homepage12.png">
                         <div>信守承诺</div>
                     </div>
@@ -105,34 +108,34 @@
                 <div id="box">
                     <div id="big-box">
                         <div id="tit">
-                            <a href="javascript:HideOrShowFont('a1')"><span id="com-new">公司新闻</span></a>
-                            <a href="javascript:HideOrShowFont('a2')"><span id="industry-new">行业新闻</span></a>
-                            <a href=""><span id="more">More<span class="add">++</span></span></a>
+                            <a href=""><span id="com-new">公司新闻</span></a>
+                            <a href=""><span id="industry-new">行业新闻</span></a>
+                            <a href="E:/PROJECT/project-HTML/news-cent"><span id="more">More<span class="add">++</span></span></a>
                         </div>
                         <hr id="hr3"><hr id="hr4">
                         <div id="list">
                             <img src="E:/PROJECT/screenshot/homepage13.png">
                             <div id="eldiv">
                                 <div class="news-content">
-                                    <a><span class="num">1</span><b>&nbsp;&nbsp;第121届广交会<span class="date">[2017-10-4]</span></b></a>
+                                    <a href=""><span class="num">1</span><b>&nbsp;&nbsp;第121届广交会<span class="date">[2017-10-4]</span></b></a>
                                 </div>
                                 <div class="news-content">
-                                    <a><span class="num">2</span><b>&nbsp;&nbsp;喜迎19大&nbsp;齐力保安全<span class="date">[2017-10-1]</span></b></a>
+                                    <a href=""><span class="num">2</span><b>&nbsp;&nbsp;喜迎19大&nbsp;齐力保安全<span class="date">[2017-10-1]</span></b></a>
                                 </div>
                                 <div class="news-content">
-                                    <a><span class="num">3</span><b>&nbsp;&nbsp;美丽岸项目启动仪式<span class="date">[2017-10-7]</span></b></a>
+                                    <a href=""><span class="num">3</span><b>&nbsp;&nbsp;美丽岸项目启动仪式<span class="date">[2017-10-7]</span></b></a>
                                 </div>
                                 <div class="news-content">
-                                    <a><span class="num">4</span><b>&nbsp;&nbsp;美丽岸项目开工典礼<span class="date">[2017-9-17]</span></b></a>
+                                    <a href=""><span class="num">4</span><b>&nbsp;&nbsp;美丽岸项目开工典礼<span class="date">[2017-9-17]</span></b></a>
                                 </div>
                                 <div class="news-content">
-                                    <a><span class="num">5</span><b>&nbsp;&nbsp;二十载守望相助，天堑变通途<span class="date">[2017-1-17]</span></b></a>
+                                    <a href=""><span class="num">5</span><b>&nbsp;&nbsp;二十载守望相助，天堑变通途<span class="date">[2017-1-17]</span></b></a>
                                 </div>
                                 <div class="news-content">
-                                    <a><span class="num">6</span><b>&nbsp;&nbsp;不忘初心，方得始终<span class="date">[2017-10-9]</span></b></a>
+                                    <a href=""><span class="num">6</span><b>&nbsp;&nbsp;不忘初心，方得始终<span class="date">[2017-10-9]</span></b></a>
                                 </div>
                                 <div class="news-content">
-                                    <a><span class="num">7</span><b>&nbsp;&nbsp;第一届海煦杯羽毛球友谊赛<span class="date">[2017-10-5]</span></b></a>
+                                    <a href=""><span class="num">7</span><b>&nbsp;&nbsp;第一届海煦杯羽毛球友谊赛<span class="date">[2017-10-5]</span></b></a>
                                 </div>
                             </div>
                         </div>
@@ -147,26 +150,39 @@
                             <div><span class="mar"><span class="sin">问</span>汽车大灯不亮是什么原因造成的？</span></div><br>
                             <div><span class="mar" style="color: #515151;"><span class="sing">答</span>灯开关前电源线路断路或搭铁.(2)线路中保险器跳闸或烧坏.(3)灯开关双金属片触点接触不良或不闭合，或灯开关损坏.</span></div><br>
                             <div><span class="mar"><span class="sin">问</span>汽车大灯不亮是什么原因造成的？</span></div><br>
-                            <div><span class="mar"style="color: #515151;"><span class="sing">答</span>灯开关前电源线路断路或搭铁.(2)线路中保险器跳闸或烧坏.(3)灯开关双金属片触点接触不良或不闭合，或灯开关损坏.</span></div>
+                            <div><span class="mar" style="color:  #515151;"><span class="sing">答</span>灯开关前电源线路断路或搭铁.(2)线路中保险器跳闸或烧坏.(3)灯开关双金属片触点接触不良或不闭合，或灯开关损坏.</span></div>
                         </div>
                     </div>
                 </div>
             </div>
             <div id="sixth">
-                <div id="back"></div>
+                <div id="shadow"></div>
                 <div id="fiimg">
-                    <img src="E:/PROJECT/screenshot/homepage15.png">
-                    <img src="E:/PROJECT/screenshot/homepage16.png">
-                    <img src="E:/PROJECT/screenshot/homepage17.png">
-                </div>
-                <div id="thr">
-                    <div style="margin-left: 250px;"><span class="lix" style="margin-right: 50px;">联系地址</span><br><span class="lixd">地址：广州市白云区龙归镇夏良村高桥中路22号</span></div>                                    
-                    <div style="margin-left: 130px;"><span class="lix">联系电话</span><br><span class="lixd">服务热线：+86-20-6232<br>5766</span></div>
-                    <div style="margin-left: 120px;"><span class="lix">电子邮箱</span><br><span class="lixd">Email:market@vikousi.com/<br>vikousi@vicousi.com</span></div>
+                    <div class="address" style="margin-right: 192px; margin-left: 48px;">
+                        <img src="E:/PROJECT/screenshot/homepage15.png">
+                        <div class="unify">
+                            <span class="lix">联系地址</span>
+                            <br><span class="lixd">地址：广州市白云区龙归镇夏良村高桥中路22号</span>
+                        </div>
+                    </div>
+                    <div class="telephone" style="margin-right: 193px;">
+                        <img src="E:/PROJECT/screenshot/homepage16.png">
+                        <div class="unify">
+                            <span class="lix">联系电话</span>
+                            <br><span class="lixd">服务热线：+86-20-6232<br>5766</span>
+                        </div>
+                    </div>
+                    <div class="email">
+                        <img src="E:/PROJECT/screenshot/homepage17.png">
+                        <div class="unify">
+                            <span class="lix">电子邮箱</span>
+                            <br><span class="lixd">Email:market@vikousi.com/<br>vikousi@vicousi.com</span>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div id="seventh">
-                <span>版权所有2016广州市维高斯电子科技有限公司ICP备案</span>
+                <span>版权所有2016广州市维高斯电子科技有限公司ICP备案：</span>
             </div>
         </div>
     </body>
