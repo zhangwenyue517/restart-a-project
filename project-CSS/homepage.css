@@ -86,6 +86,7 @@ a {
 .img1 {
     height: 264px;
     width: 350px;
+    padding-bottom: 30px;
 }
 #li {
     height: 404px;
@@ -111,7 +112,7 @@ a {
     border: 1px solid #000000;
     background-color: #000000;
     opacity: 0.35;
-    margin-top: -172px;
+    margin-top: -202px;
     display: block;
 }
 .word {
@@ -126,22 +127,22 @@ a {
 #li:hover .img2 {
     margin-top: -306px;
 }
-#check {
+.check {
     width: 348px;
-    height: 132px;
+    height: 102px;
     opacity: 0;
     transition: 0.3s;
     border: 1px solid #000000;
     background-color: #000000;
 }
-#check-more {
+.check-more {
     font-size: 14px;
     font-family: "Microsoft Yahei";
     color: #00e4ff;
     padding: 10px 31px;
     width: 129px;
     margin: 0 auto;
-    margin-top: 40px;
+    margin-top: 25px;
     opacity: 0;
     transition: 0.3s;
     -webkit-transition: .5s;
@@ -149,10 +150,10 @@ a {
     border-top: 1px solid #00ffff;
     border-bottom: 1px solid #00ffff;
 }
-#li:hover #check-more {
+#li:hover .check-more {
     opacity: 1;
 }
-#li:hover #check {
+#li:hover .check {
     opacity: 0.35;
 }
 #fourth {
