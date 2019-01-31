@@ -45,16 +45,66 @@ a {
     font-family: "Microsoft YaHei";
     border-bottom: 1px solid #e77070;
 }
-#second {
-    margin-bottom: 150px;
-}
 #background {
     width: 100%;
     height: 500px;
 }
 #shadow {
-    margin-top: -60px;
+    margin-top: -84px;
+    clear: both;
 }
 #shadow img {
     width: 100%;
+    height: 80px;
+}
+#company {
+    font-size: 30px;
+    width: 1200px;
+    color: #ffffff;
+    margin: -60px auto 0 auto;
+    font-family: "SimHei";
+}
+#intro {
+    float: left;
+    position: relative;
+}
+#intro span {
+    padding: 25px 12px;
+}
+#transit {
+    float: right;
+    margin-right: 17px;
+    position: relative;
+}
+#second {
+    height: 602px;
+    position: relative;
+    top: -60px;
+    background-color: #f2f2f2;
+}
+.title {
+    font-size: 36px;
+    margin-top: 110px;
+    padding-top: 60px;
+    font-family: "SimHei";
+}
+#img-word {
+    width: 1200px;
+    margin: 86px auto  20px auto;
+}
+#img1 {
+    float: left;
+    margin-left: 34px;
+}
+#word1 {
+    float: right;
+    width: 670px;
+    margin-top: 20px;
+    margin-right: 27px;
+    line-height: 26px;
+    color: #676767;
+    font-size: 18px;
+    font-family: "Microsoft Yahei";
+    text-align: left;
+    text-indent: 35px;
 }
