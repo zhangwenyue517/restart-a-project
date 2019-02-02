@@ -77,7 +77,7 @@ a {
     position: relative;
 }
 #second {
-    height: 662px;
+    height: 612px;
     position: relative;
     top: -60px;
     background-color: #f2f2f2;
@@ -90,7 +90,7 @@ a {
 }
 #img-word {
     width: 1200px;
-    margin: 86px auto  20px auto;
+    margin: 86px auto  10px auto;
 }
 #img1 {
     float: left;
@@ -110,6 +110,106 @@ a {
 }
 .title1 {
     font-size: 36px;
-    padding-top: 60px;
     font-family: "SimHei";
+}
+#honor {
+    margin-top: 65px;
+    margin-bottom: 74px;
+}
+#honor img {
+    width: 1158px;
+    height: 346px;
+}
+#fourth {
+    background-color: #cecdcd;
+}
+.title2 {
+    font-size: 36px;
+    font-family: "SimHei";
+    padding-top: 59px;
+    padding-bottom: 91px;
+}
+#adventage {
+    width: 1200px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+#adventage li {
+    width: 260px;
+    height: 105px;
+    float: left;
+    text-align: left;
+    margin-bottom: 90px;
+    margin-left: 100px;
+}
+#adventage li img {
+    height: 105px;
+    width: 105px;
+}
+.spans {
+    float: right;
+    margin-top: 31px;
+    font-size: 18px;
+    font-family: "SemHei";
+} 
+.numb {
+    font-size: 48px;
+    font-family: "Myriad Pro";
+    color: #909090;
+    position: absolute;
+    margin-left: -78px;
+    margin-top: 25px;
+}
+#fiimg {
+    width: 1200px;
+    margin:0 auto;
+    z-index: 99
+}
+#sixth {
+    background-image: url("E:/PROJECT/screenshot/homepage14.png");
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 315px;
+}
+.lix {
+    font-size: 24px;
+    font-family: "Microsoft YaHei";
+}
+.lixd {
+    font-size: 18px;
+    font-family: "Microsoft YaHei";
+    margin-top: 20px;
+    float: left;
+    text-align: left;
+}
+#seventh {
+    border: 1px solid #212121;
+    background-color: #212121;
+    height: 36px;
+}
+#seventh span {
+    color: #ffffff;
+    font-family: "SimHei";
+    margin: 9px auto;
+    display: inline-block;
+    font-size: 20px;
+}
+.address {
+    width: 252px;
+    float: left;
+    padding-top: 70px;
+}
+.telephone {
+    width: 204px;
+    float: left;
+    padding-top: 70px;
+}
+.email {
+    width: 258px;
+    float: left;
+    padding-top: 70px;
+}
+.unify {
+    color: #ffffff;
+    margin-top: 25px;
 }
