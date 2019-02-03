@@ -32,7 +32,8 @@ a {
     font-size: 20px;
     background-color: #e77070;
     color: #ffffff;
-    padding: 21px 29px;
+    padding: 21px 9px;
+    margin-left: 17px;
     font-family: "Microsoft YaHei";
     border-bottom: 2px solid #e77070;
 }
@@ -104,7 +105,7 @@ a {
     line-height: 26px;
     color: #676767;
     font-size: 18px;
-    font-family: "Microsoft Yahei";
+    font-family: "Microsoft YaHei";
     text-align: left;
     text-indent: 35px;
 }
@@ -142,7 +143,7 @@ a {
     margin-bottom: 90px;
     margin-left: 100px;
 }
-#adventage li img {
+#adventage .tr-img {
     height: 105px;
     width: 105px;
 }
@@ -153,20 +154,23 @@ a {
     font-family: "SemHei";
 } 
 .numb {
-    font-size: 48px;
-    font-family: "Myriad Pro";
-    color: #909090;
     position: absolute;
+    width: 50px;
+    height: 40px;
     margin-left: -78px;
-    margin-top: 25px;
+    margin-top: 30px;
+}
+.numb img {
+    width: 50px;
+    height: 40px;
 }
 #fiimg {
     width: 1200px;
     margin:0 auto;
-    z-index: 99
+    z-index: 99;
 }
 #sixth {
-    background-image: url("E:/PROJECT/screenshot/homepage14.png");
+    background-image: url("E:/PROJECT/screenshot/homepage-img/homepage14.png");
     width: 100%;
     background-repeat: no-repeat;
     height: 315px;
