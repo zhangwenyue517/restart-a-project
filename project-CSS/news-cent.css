@@ -99,9 +99,48 @@ a {
     margin-top: -3px;
 }
 #third {
+    width: 1200px;
+    margin: -10px auto 0 auto;
+}
+#list {
     width: 1153px;
-    margin-top: 10px;
     margin: 0 auto;
     background-image: url("E:/PROJECT/screenshot/news-cent-img/img5.png");
     height: 1401px;
+    overflow: hidden;
+}
+#news-intro {
+    margin-top: -1130px;
+}
+#news-intro li {
+    margin: 0 auto;
+    width: 1153px;
+    overflow: hidden;
+    margin-bottom: 195px;
+}
+#news-intro li img {
+    width: 379px;
+    float: left;
+    height: 258px;
+}
+.display {
+    height: 228px;
+    width: 455px;
+    float: right;
+}
+.divf {
+    font-size: 30px;
+    font-family: "SimHei";
+    margin-bottom: 48px;
+}
+.divs, .divp, .divm {
+    font-size: 18px;
+    font-family: "SimHei";
+    line-height: 34px;
+}
+.divs, divp {
+    text-align: left;
+}
+.divm {
+    text-align: right;
 }
