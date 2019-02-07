@@ -164,16 +164,16 @@ a {
     width: 50px;
     height: 40px;
 }
-#fiimg {
-    width: 1200px;
-    margin:0 auto;
-    z-index: 99;
-}
 #sixth {
     background-image: url("E:/PROJECT/screenshot/homepage-img/homepage14.png");
     width: 100%;
     background-repeat: no-repeat;
     height: 315px;
+}
+#fiimg {
+    width: 1200px;
+    margin:0 auto;
+    z-index: 99;
 }
 .lix {
     font-size: 24px;

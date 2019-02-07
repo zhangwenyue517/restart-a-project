@@ -131,16 +131,88 @@ a {
 .divf {
     font-size: 30px;
     font-family: "SimHei";
-    margin-bottom: 48px;
+    margin-bottom: 46px;
 }
 .divs, .divp, .divm {
     font-size: 18px;
     font-family: "SimHei";
-    line-height: 34px;
+    line-height: 33px;
 }
-.divs, divp {
+.divs, .divp {
     text-align: left;
 }
 .divm {
-    text-align: right;
+    float: right;
+    background-image: url("E:/PROJECT/screenshot/news-cent-img/img6.png");
+    font-family: "SimHei";
+    width: 122px;
+    height: 44px;
+    padding-top: 5px;
+    background-repeat: no-repeat;
+    color: #ffffff;
+}
+.divp {
+    text-indent: 2em;
+}
+#pages {
+    margin-bottom: 106px;
+}
+#pages span{
+    color: #000000;
+    padding: 0 42px;
+    font-size: 30px;
+    font-family: "SimHei";
+}
+#sixth {
+    background-image: url("E:/PROJECT/screenshot/homepage-img/homepage14.png");
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 315px;
+}
+#fiimg {
+    width: 1200px;
+    margin:0 auto;
+    z-index: 99;
+}
+.lix {
+    font-size: 24px;
+    font-family: "Microsoft YaHei";
+}
+.lixd {
+    font-size: 18px;
+    font-family: "Microsoft YaHei";
+    margin-top: 20px;
+    float: left;
+    text-align: left;
+}
+#seventh {
+    border: 1px solid #212121;
+    background-color: #212121;
+    height: 36px;
+}
+#seventh span {
+    color: #ffffff;
+    font-family: "SimHei";
+    margin: 9px auto;
+    display: inline-block;
+    font-size: 20px;
+}
+.address {
+    width: 252px;
+    float: left;
+    padding-top: 70px;
+}
+.telephone {
+    width: 204px;
+    float: left;
+    padding-top: 70px;
+}
+.email {
+    width: 258px;
+    float: left;
+    padding-top: 70px;
+}
+.unify {
+    color: #ffffff;
+    margin-top: 25px;
 }
