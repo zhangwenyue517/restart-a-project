@@ -78,3 +78,33 @@ a {
     margin-right: 17px;
     position: relative;
 }
+#Viwepager{
+    width: 1200px;
+    margin: 116px auto 0 auto;
+    overflow: hidden;
+}
+.introduce {
+    font-size: 30px;
+    font-family: "SimHei";
+}
+.English {
+    font-size: 24px;
+    font-family: "SimHei";
+    color: #494949;
+    margin-top: 5px;
+}
+#Viwepager hr {
+    width: 400px;
+    background-color: #e3e3e3;
+    border: none;
+    height: 6px; 
+    margin-top: -10px;
+}
+#hr1 {
+    float: left;
+    margin-left: 90px;
+}
+#hr2 {
+    float: right;
+    margin-right: 90px;
+}
