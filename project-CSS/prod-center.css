@@ -91,20 +91,212 @@ a {
     font-size: 24px;
     font-family: "SimHei";
     color: #494949;
-    margin-top: 5px;
+    margin-top: 15px;
 }
-#Viwepager hr {
-    width: 400px;
+hr {
     background-color: #e3e3e3;
     border: none;
     height: 6px; 
-    margin-top: -10px;
 }
 #hr1 {
     float: left;
+    width: 400px;
     margin-left: 90px;
+    margin-top: -10px;
 }
 #hr2 {
     float: right;
+    width: 400px;
     margin-right: 90px;
+    margin-top: -10px;
+}
+#Viwepager-imgs {
+    width: 1063px;
+    height: 215px;
+    margin: 98px auto 64px auto;
+    overflow: hidden;
+}
+.img-intro {
+    width: 160px;
+    margin: 0 auto;
+    padding-left: 52px;
+    padding-right: 52px;
+    float: left;
+}
+.img-intro img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 34px;
+}
+.intros {
+    font-size: 24px;
+    font-family: "SimHei";
+    color: #494949;
+}
+#prod-center {
+    background-color: #f5f4f4;
+}
+#prod-center>div {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.english {
+    font-size: 24px;
+    font-family: "SimHei";
+    color: #000;
+    margin-top: 5px;
+    margin-bottom: 133px;
+}
+#hr3 {
+    width: 260px;
+    float: left;
+    margin-left: 263px;
+}
+#hr4 {
+    width: 260px;
+    float: right;
+    margin-right: 263px;
+}
+#six-img {
+    width: 1200px;
+    height: 950px;
+    overflow: hidden;
+    margin:52px auto 11px auto;
+}
+.img1 {
+    height: 264px;
+    width: 350px;
+    padding-bottom: 30px;
+}
+#li {
+    height: 404px;
+    width: 350px;
+    float: left;
+    margin-bottom: 110px;
+}
+#six-img ul {
+    margin: 0 auto;
+}
+.describe {
+    font-size: 16px;
+    color: #636363;
+    text-indent:  2em;
+    text-align: left;
+    width: 323px;
+    line-height: 28px;
+    font-family: "SimHei";
+}
+.img2 {
+    width: 348px;
+    height: 54px;
+    border: 1px solid #000000;
+    background-color: #000000;
+    opacity: 0.35;
+    margin-top: -202px;
+    display: block;
+}
+.word {
+    color: #ffffff;
+    font-family: "SimHei";
+    font-size: 14px;
+    margin-top: -36px;
+    margin-left: 119px;
+    position: absolute;
+    z-index: 1;
+}
+#li:hover .img2 {
+    margin-top: -306px;
+}
+.check {
+    width: 348px;
+    height: 102px;
+    opacity: 0;
+    transition: 0.3s;
+    border: 1px solid #000000;
+    background-color: #000000;
+}
+.check-more {
+    font-size: 14px;
+    font-family: "Microsoft Yahei";
+    color: #00e5ff;
+    padding: 10px 31px;
+    width: 129px;
+    margin: 0 auto;
+    margin-top: 25px;
+    opacity: 0;
+    transition: 0.3s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    border-top: 1px solid #00e5ff;
+    border-bottom: 1px solid #00e5ff;
+}
+#li:hover .check-more {
+    opacity: 1;
+}
+#li:hover .check {
+    opacity: 0.35;
+}
+#pages {
+    margin-bottom: 92px;
+    margin-top: 92px;
+}
+#pages span{
+    color: #000000;
+    padding: 0 42px;
+    font-size: 30px;
+    font-family: "SimHei";
+}
+#sixth {
+    background-image: url("E:/PROJECT/screenshot/homepage-img/homepage14.png");
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 315px;
+}
+#fiimg {
+    width: 1200px;
+    margin:0 auto;
+    z-index: 99;
+}
+.lix {
+    font-size: 24px;
+    font-family: "Microsoft YaHei";
+}
+.lixd {
+    font-size: 18px;
+    font-family: "Microsoft YaHei";
+    margin-top: 20px;
+    float: left;
+    text-align: left;
+}
+#seventh {
+    border: 1px solid #212121;
+    background-color: #212121;
+    height: 36px;
+}
+#seventh span {
+    color: #ffffff;
+    font-family: "SimHei";
+    margin: 9px auto;
+    display: inline-block;
+    font-size: 20px;
+}
+.address {
+    width: 252px;
+    float: left;
+    padding-top: 70px;
+}
+.telephone {
+    width: 204px;
+    float: left;
+    padding-top: 70px;
+}
+.email {
+    width: 258px;
+    float: left;
+    padding-top: 70px;
+}
+.unify {
+    color: #ffffff;
+    margin-top: 25px;
 }
