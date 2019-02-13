@@ -109,3 +109,146 @@ a {
     text-align: left;
     font-family: "Microsoft YaHei";
 }
+.ss {
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+#iframe {
+    width: 1198px;
+    height: 585px;
+    border: 1px solid #000000;
+}
+#fifth {
+    width: 1200px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+#mess {
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 15px;
+    margin-bottom: 80px;
+}
+form {
+    width: 1200px;
+    margin: 0 auto;
+}
+#lab {
+    width: 1200px;
+    font-size: 24px;
+    font-family: "Microsoft YaHei";
+    margin-bottom: 50px;
+    margin-left: 14px;
+}
+#input1 {
+    margin-right: 254px;
+}
+#input2 {
+    margin-left: -8px;
+    margin-right: 5px;
+}
+form img {
+    margin-bottom: -10px;
+}
+form input {
+    border-radius: 10px;
+    padding-left: 10px;
+    border: 1px solid #a3a1a1;
+    width: 400px;
+    font-size: 24px;
+    height: 38px;
+}
+form textarea {
+    margin-top: -30px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    border: 1px solid #a3a1a1;
+    border-radius: 10px;
+    width: 1170px;
+    height: 234px;
+}
+#text {
+    color:#adadad;
+    padding-top: 10px;
+    padding-left: 5px;
+    font-size: 24px;
+    font-family: "Microsoft Yahei";
+    letter-spacing: 5px;
+}
+#code {
+    margin-left: -800px;
+    letter-spacing: 0.3em;
+    color: #747474;
+    font-size: 24px;
+    font-family: "Microsoft Yahei";
+}
+#code-text {
+    width: 223px;
+    height: 40px;
+}
+#submit {
+    display: block;
+    margin: 0 auto;
+    font-size: 30px;
+    border-color: #16c6d7;
+    letter-spacing: 0.3em;
+    color:#ffffff;
+    width: 365px;
+    height: 48px;
+    margin-top: 42px;
+    margin-bottom: 54px;
+    background-color: #16c6d7;
+}
+#sixth {
+    background-image: url("E:/PROJECT/screenshot/homepage-img/homepage14.png");
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 315px;
+}
+#fiimg {
+    width: 1200px;
+    margin:0 auto;
+    z-index: 99;
+}
+.lix {
+    font-size: 24px;
+    font-family: "Microsoft YaHei";
+}
+.lixd {
+    font-size: 18px;
+    font-family: "Microsoft YaHei";
+    margin-top: 20px;
+    float: left;
+    text-align: left;
+}
+#seventh {
+    border: 1px solid #212121;
+    background-color: #212121;
+    height: 36px;
+}
+#seventh span {
+    color: #ffffff;
+    font-family: "SimHei";
+    margin: 9px auto;
+    display: inline-block;
+    font-size: 20px;
+}
+.address {
+    width: 252px;
+    float: left;
+    padding-top: 70px;
+}
+.telephone {
+    width: 204px;
+    float: left;
+    padding-top: 70px;
+}
+.email {
+    width: 258px;
+    float: left;
+    padding-top: 70px;
+}
+.unify {
+    color: #ffffff;
+    margin-top: 25px;
+}
