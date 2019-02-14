@@ -153,6 +153,7 @@ form img {
 form input {
     border-radius: 10px;
     padding-left: 10px;
+    border: none;
     border: 1px solid #a3a1a1;
     width: 400px;
     font-size: 24px;
@@ -162,6 +163,7 @@ form textarea {
     margin-top: -30px;
     margin-left: 20px;
     margin-bottom: 30px;
+    border: none;
     border: 1px solid #a3a1a1;
     border-radius: 10px;
     width: 1170px;
@@ -176,7 +178,7 @@ form textarea {
     letter-spacing: 5px;
 }
 #code {
-    margin-left: -800px;
+    margin-left: -630px;
     letter-spacing: 0.3em;
     color: #747474;
     font-size: 24px;
@@ -185,6 +187,14 @@ form textarea {
 #code-text {
     width: 223px;
     height: 40px;
+}
+#code-img {
+    background-color: #e5e6f2;
+    display: inline-block;
+    width: 155px;
+    margin-bottom: -15px;
+    margin-left: 20px;
+    height: 48px;
 }
 #submit {
     display: block;
