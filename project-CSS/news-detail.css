@@ -71,6 +71,7 @@ a {
 }
 #intro span {
     padding: 25px 12px;
+    color: #fff;
     margin-right: 12px;
 }
 #transit {
@@ -96,12 +97,12 @@ a {
 #lines {
     background-image: url("E:/PROJECT/screenshot/news-detail-img/prod-detail1.png");
     background-repeat: no-repeat;
+    margin-bottom: 46px;
     width: 1200px;
     height: 1684px;
 }
 #introduction {
-    width: 1116px;
-    margin: 0 auto;
+    margin: 0 60px;
 }
 #detail-tit {
     font-size: 36px;
@@ -111,4 +112,107 @@ a {
 #from {
     color: #cdcdcd;
     font-size: 18px;
+    margin-bottom: 46px;
+}
+#para-1 {
+    margin-bottom: 17px;
+}
+p {
+    text-align: left;
+    text-indent: 2em;
+    line-height: 32px;
+    font-size: 18px;
+    font-family: "Microsoft Yahei";
+    color: #575757;
+}
+#para-img1 {
+    width: 1092px;
+    height: 297px;
+    display: block;
+    margin-bottom: 25px;
+}
+#para-2 {
+    margin-bottom: 15px;
+    letter-spacing: 0.57px;
+}
+#para-img2 {
+    width: 1092px;
+    height: 297px;
+    display: block;
+    margin-bottom: 37px;
+}
+#para-3 {
+    margin-bottom: 80px;
+    letter-spacing: 0.8px;
+}
+#on-under {
+    width: 968px;
+    overflow: hidden;
+}
+#on-under div {
+    color: #838181;
+    font-size: 30px;
+}
+#left {
+    float: left;
+}
+#right {
+    float: right;
+}
+.indi {
+    font-size: 29.99px;
+    color: #b0aeae;
+}
+#sixth {
+    background-image: url("E:/PROJECT/screenshot/homepage-img/homepage14.png");
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 315px;
+}
+#fiimg {
+    width: 1200px;
+    margin:0 auto;
+    z-index: 99;
+}
+.lix {
+    font-size: 24px;
+    font-family: "Microsoft YaHei";
+}
+.lixd {
+    font-size: 18px;
+    font-family: "Microsoft YaHei";
+    margin-top: 20px;
+    float: left;
+    text-align: left;
+}
+#seventh {
+    border: 1px solid #212121;
+    background-color: #212121;
+    height: 36px;
+}
+#seventh span {
+    color: #ffffff;
+    font-family: "SimHei";
+    margin: 9px auto;
+    display: inline-block;
+    font-size: 20px;
+}
+.address {
+    width: 252px;
+    float: left;
+    padding-top: 70px;
+}
+.telephone {
+    width: 204px;
+    float: left;
+    padding-top: 70px;
+}
+.email {
+    width: 258px;
+    float: left;
+    padding-top: 70px;
+}
+.unify {
+    color: #ffffff;
+    margin-top: 25px;
 }
