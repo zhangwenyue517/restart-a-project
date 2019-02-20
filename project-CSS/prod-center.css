@@ -73,6 +73,16 @@ a {
     padding: 25px 12px;
     margin-right: 12px;
 }
+#btn1 {
+    color: #fff;
+    background-color: #e77070;
+}
+#btn2 {
+    color: #fff;
+}
+#btn3 {
+    color: #fff;
+}
 #transit {
     float: right;
     margin-right: 17px;
@@ -207,6 +217,9 @@ hr {
 }
 #li:hover .img2 {
     margin-top: -306px;
+}
+#li:hover .word {
+    margin-top: -35px;
 }
 .check {
     width: 348px;

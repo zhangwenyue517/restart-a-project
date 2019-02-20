@@ -72,6 +72,16 @@ a {
 #intro span {
     padding: 25px 12px;
 }
+#btn1 {
+    color: #000;
+    background-color: #fff;
+}
+#btn2 {
+    color: #fff;
+}
+#btn3 {
+    color: #fff;
+}
 #transit {
     float: right;
     margin-right: 17px;

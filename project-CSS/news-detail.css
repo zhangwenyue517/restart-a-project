@@ -147,6 +147,7 @@ p {
 }
 #on-under {
     width: 968px;
+    margin: 0 auto;
     overflow: hidden;
 }
 #on-under div {
@@ -155,9 +156,11 @@ p {
 }
 #left {
     float: left;
+    letter-spacing: 3px;
 }
 #right {
     float: right;
+    letter-spacing: 3px;
 }
 .indi {
     font-size: 29.99px;
