@@ -47,16 +47,19 @@ a {
 }
 #second {
     margin-bottom: 150px;
+    overflow: hidden;
     width: 1349px;
     height: 500px;
 }
-#second>ul {
-    width: 100%;
+#ul {
+    width: 4098px;
     height: 500px;
-    overflow: hidden;
+    padding: 0px;
+    margin: 0px;
+    transition: all 2s;
 }
 #second img {
-    width: 100%;
+    width: 1366px;
     height: 500px;
     float: left;
 }
@@ -292,10 +295,10 @@ a {
     font-size: 16px;
     margin-left: 11px;
 }
-#list {
+#list1 {
     overflow: hidden;
 }
-#list img {
+#list1 img {
     float: left;
 }
 #eldiv {
@@ -316,6 +319,41 @@ a {
 }
 .num {
     color: #ff0d0d;
+    float: left;
+    margin-top: -5px;
+    font-size: 24px;
+    margin-right: 10px;
+    font-family: "SemHei";
+}
+.date {
+    float: right;
+    margin-bottom: -5px;
+}
+#list2 {
+    overflow: hidden;
+    display: none;
+}
+#list2 img {
+    float: left;
+}
+.eldiv {
+    width: 346px;
+    float: right;
+}
+.news-content {
+    width: 346px;
+    text-align: left;
+    padding-bottom: 2px;
+    padding-top: 4px;
+    border-bottom: 1px dashed #a7a7a7;
+    font-size: 16px;
+    overflow: hidden;
+}
+.news-content b {
+    color: #000;
+}
+.numb {
+    color: #4c0094;
     float: left;
     margin-top: -5px;
     font-size: 24px;

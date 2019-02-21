@@ -4,7 +4,7 @@
         <title>首页</title>
         <meta charset="utf-8" />
         <link href="E:/PROJECT/project-CSS/homepage.css" rel="stylesheet" type="text/css" />
-        <script type="text/javascript" src="homepage.js"></script>
+        <script src="homepage.js"></script>
     </head>
     <body>
         <div id="main">
@@ -21,14 +21,14 @@
                 </div>
             </div>
             <div id="second">
-                <ul>
-                    <li>
+                <ul id="ul">
+                    <li class="li">
                         <img src="E:/PROJECT/screenshot/homepage-img/homepage2.png">
                     </li>
-                    <li>
+                    <li class="li">
                         <img src="E:/PROJECT/screenshot/homepage-img/homepage2.png">
                     </li>
-                    <li>
+                    <li class="li">
                         <img src="E:/PROJECT/screenshot/homepage-img/homepage2.png">
                     </li>
                 </ul>
@@ -55,7 +55,7 @@
                             <div class="img2"></div>
                             <div class="word">K8&nbsp;H7&nbsp;LED&nbsp;前大灯</div>
                             <div class="check">
-                                <a><div class="check-more">查看更多</div></a>
+                                <a href=""><div class="check-more">查看更多</div></a>
                             </div>
                         </li>
                         <li id="li" style="margin-right: 75px;">
@@ -66,7 +66,7 @@
                             <div class="img2"></div>
                             <div class="word">K6&nbsp;PLUS&nbsp;LED&nbsp;前大灯</div>
                             <div class="check">
-                                <a><div class="check-more">查看更多</div></a>
+                                <a href=""><div class="check-more">查看更多</div></a>
                             </div>
                         </li>
                         <li id="li">
@@ -77,7 +77,7 @@
                             <div class="img2"></div>
                             <div class="word">K6&nbsp;H7&nbsp;LED&nbsp;前大灯</div>
                             <div class="check">
-                                <a><div class="check-more">查看更多</div></a>
+                                <a href=""><div class="check-more">查看更多</div></a>
                             </div>
                         </li>
                         <li id="li" style="margin-right: 75px;">
@@ -88,7 +88,7 @@
                             <div class="img2"></div>
                             <div class="word">K6&nbsp;PLUS&nbsp;LED&nbsp;前大灯</div>
                             <div class="check">
-                                <a><div class="check-more">查看更多</div></a>
+                                <a href=""><div class="check-more">查看更多</div></a>
                             </div>
                         </li>
                         <li id="li" style="margin-right: 75px;">
@@ -99,7 +99,7 @@
                             <div class="img2"></div>
                             <div class="word">K7&nbsp;PLUS&nbsp;LED&nbsp;前大灯</div>
                             <div class="check">
-                                <a><div class="check-more">查看更多</div></a>
+                                <a href=""><div class="check-more">查看更多</div></a>
                             </div>
                         </li>
                         <li id="li">
@@ -110,7 +110,7 @@
                             <div class="img2"></div>
                             <div class="word">K6&nbsp;PLUS&nbsp;LED&nbsp;前大灯</div>
                             <div class="check">
-                                <a><div class="check-more">查看更多</div></a>
+                                <a href=""><div class="check-more">查看更多</div></a>
                             </div>
                         </li>
                     </ul>
@@ -141,13 +141,13 @@
                     <div id="big-box">
                         <div id="tit">
                             <a href=""><span id="com-new">公司新闻</span></a>
-                            <a href=""><span id="industry-new">行业新闻</span></a>
-                            <a href="E:/PROJECT/project-HTML/news-cent"><span id="more">More<span class="add">++</span></span></a>
+                            <a href="" onClick="document.getElementById('list2').style.display='inline'; document.getElementById('list1').style.display='none'; document.getElementById('list2').style.marginTop='240px'; return false;"><span id="industry-new">行业新闻</span></a>
+                            <a href="E:/PROJECT/project-HTML/news-center.html"><span id="more">More<span class="add">++</span></span></a>
                         </div>
                         <hr id="hr3"><hr id="hr4">
-                        <div id="list">
+                        <div id="list1">
                             <img src="E:/PROJECT/screenshot/homepage-img/homepage13.png">
-                            <div id="eldiv">
+                            <div class="eldiv">
                                 <div class="news-content">
                                     <a href=""><span class="num">1</span><b>&nbsp;&nbsp;第121届广交会<span class="date">[2017-10-4]</span></b></a>
                                 </div>
@@ -171,11 +171,37 @@
                                 </div>
                             </div>
                         </div>
+                        <div id="list2">
+                            <img src="E:/PROJECT/screenshot/homepage-img/homepage13.png">
+                            <div id="eldiv">
+                                <div class="news-content">
+                                    <a href=""><span class="numb">1</span><b>&nbsp;&nbsp;第121届广交会<span class="date">[2017-10-4]</span></b></a>
+                                </div>
+                                <div class="news-content">
+                                    <a href=""><span class="numb">2</span><b>&nbsp;&nbsp;喜迎19大&nbsp;齐力保安全<span class="date">[2017-10-1]</span></b></a>
+                                </div>
+                                <div class="news-content">
+                                    <a href=""><span class="numb">3</span><b>&nbsp;&nbsp;美丽岸项目启动仪式<span class="date">[2017-10-7]</span></b></a>
+                                </div>
+                                <div class="news-content">
+                                    <a href=""><span class="numb">4</span><b>&nbsp;&nbsp;美丽岸项目开工典礼<span class="date">[2017-9-17]</span></b></a>
+                                </div>
+                                <div class="news-content">
+                                    <a href=""><span class="numb">5</span><b>&nbsp;&nbsp;二十载守望相助，天堑变通途<span class="date">[2017-1-17]</span></b></a>
+                                </div>
+                                <div class="news-content">
+                                    <a href=""><span class="numb">6</span><b>&nbsp;&nbsp;不忘初心，方得始终<span class="date">[2017-10-9]</span></b></a>
+                                </div>
+                                <div class="news-content">
+                                    <a href=""><span class="numb">7</span><b>&nbsp;&nbsp;第一届海煦杯羽毛球友谊赛<span class="date">[2017-10-5]</span></b></a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div id="others">
                         <div id="tit-1">
                             <span id="com-questions">常见问题</span>
-                            <a href=""><span id="more-j">More<span class="add">++</span></span></a>
+                            <a href="E:/PROJECT/project-HTML/news-center.html"><span id="more-j">More<span class="add">++</span></span></a>
                         </div>
                         <hr id="hr5">
                         <div id="words">
