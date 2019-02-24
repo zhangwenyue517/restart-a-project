@@ -122,19 +122,22 @@ a {
 #news-intro {
     margin-top: -1130px;
 }
-#news-intro li {
+.li {
     margin: 0 auto;
     width: 1153px;
     overflow: hidden;
     margin-bottom: 195px;
 }
-#news-intro li img {
+.img-div:-nth-child(even){
+}
+.display:-nth-child(even) {
+}
+.img-div {
     width: 379px;
     float: left;
     height: 258px;
 }
 .display {
-    height: 228px;
     width: 455px;
     float: right;
 }
