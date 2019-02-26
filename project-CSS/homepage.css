@@ -64,9 +64,12 @@ a {
     float: left;
 }
 #btn {
-    margin: -70px auto 0 auto;
+    margin: 0 auto;
     width: 264px;
     overflow: hidden;
+}
+#btn ul {
+    margin-top: -100px;
 }
 .buttons {
     width: 60px;
@@ -300,6 +303,8 @@ a {
 }
 #list1 img {
     float: left;
+    width: 311px;
+    height: 240px;
 }
 #eldiv {
     width: 346px;
@@ -331,9 +336,12 @@ a {
 }
 #list2 {
     overflow: hidden;
+    display: none;
 }
 #list2 img {
     float: left;
+    width: 311px;
+    height: 240px;
 }
 .eldiv {
     width: 346px;
