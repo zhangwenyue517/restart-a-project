@@ -56,7 +56,6 @@ a {
     height: 500px;
     padding: 0px;
     margin: 0px;
-    transition: all 2s;
 }
 #second img {
     width: 1366px;
@@ -64,12 +63,13 @@ a {
     float: left;
 }
 #btn {
-    margin: 0 auto;
-    width: 264px;
     overflow: hidden;
+    position: absolute;
+    margin: -70px auto 0 auto;
+    margin-left: 535px;
 }
 #btn ul {
-    margin-top:
+    overflow: hidden;
 }
 .buttons {
     width: 60px;
@@ -432,7 +432,7 @@ a {
     z-index: 99
 }
 #sixth {
-    background-image: url("E:/PROJECT/screenshot/homepage-img/homepage14.png");
+    background-image: url("../screenshot/homepage-img/homepage14.png");
     width: 100%;
     background-repeat: no-repeat;
     height: 315px;

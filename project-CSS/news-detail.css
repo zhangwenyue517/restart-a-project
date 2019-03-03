@@ -95,7 +95,7 @@ a {
     margin-bottom: 24px
 }
 #lines {
-    background-image: url("E:/PROJECT/screenshot/news-detail-img/prod-detail1.png");
+    background-image: url("../screenshot/news-detail-img/prod-detail1.png");
     background-repeat: no-repeat;
     margin-bottom: 46px;
     width: 1200px;
@@ -167,7 +167,7 @@ p {
     color: #b0aeae;
 }
 #sixth {
-    background-image: url("E:/PROJECT/screenshot/homepage-img/homepage14.png");
+    background-image: url("../screenshot/homepage-img/homepage14.png");
     width: 100%;
     background-repeat: no-repeat;
     height: 315px;

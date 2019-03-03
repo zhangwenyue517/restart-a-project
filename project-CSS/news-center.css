@@ -115,7 +115,7 @@ a {
 #list {
     width: 1153px;
     margin: 0 auto;
-    background-image: url("E:/PROJECT/screenshot/news-cent-img/img5.png");
+    background-image: url("../screenshot/news-cent-img/img5.png");
     height: 1401px;
     overflow: hidden;
 }
@@ -156,7 +156,7 @@ a {
 }
 .divm {
     float: right;
-    background-image: url("E:/PROJECT/screenshot/news-cent-img/img6.png");
+    background-image: url("../screenshot/news-cent-img/img6.png");
     font-family: "SimHei";
     width: 122px;
     height: 44px;
@@ -177,7 +177,7 @@ a {
     font-family: "SimHei";
 }
 #sixth {
-    background-image: url("E:/PROJECT/screenshot/homepage-img/homepage14.png");
+    background-image: url("../screenshot/homepage-img/homepage14.png");
     width: 100%;
     background-repeat: no-repeat;
     height: 315px;
