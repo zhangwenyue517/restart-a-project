@@ -3,6 +3,9 @@
     padding: 0;
     list-style: none;
 }
+body {
+    overflow-x: hidden;
+}
 a {
     text-decoration: none;
 }
@@ -48,32 +51,43 @@ a {
 #second {
     margin-bottom: 150px;
     overflow: hidden;
-    width: 1349px;
+    width: 100%;
     height: 500px;
 }
 #ul {
-    width: 4098px;
+    width: 4047px;
     height: 500px;
+    position: absolute;
+    transition: all 4s;
+    overflow: hidden;
+    list-style-type: none;
     padding: 0px;
     margin: 0px;
 }
+.li {
+    width: 100%;
+}
+.li_img {
+    height: 500px;
+}
 #second img {
-    width: 1366px;
+    width: 1349px;
     height: 500px;
     float: left;
 }
 #btn {
     overflow: hidden;
     position: absolute;
-    margin: -70px auto 0 auto;
+    margin-top: 430px;
     margin-left: 535px;
 }
-#btn ul {
+#ul-buttons {
     overflow: hidden;
 }
 .buttons {
     width: 60px;
     border-radius: 25%;
+    background-color: #ff5a5a; 
     float: left;
     height: 8px;
 }
@@ -161,12 +175,12 @@ a {
     font-family: "Microsoft Yahei";
     color: #00e5ff;
     padding: 10px 31px;
-    width: 60px;
+    width: 75px;
     opacity: 0;
-    margin: 0 auto;
     margin-left: 110px;
+    letter-spacing: 0.32em;
     position: absolute;
-    margin-top: -75px;
+    margin-top: -80px;
     border-top: 1px solid #00e5ff;
     border-bottom: 1px solid #00e5ff;
 }
