@@ -120,11 +120,14 @@ hr {
     margin-right: 90px;
     margin-top: -10px;
 }
-#Viwepager-imgs {
+#Viewpager-imgs {
     width: 1063px;
     height: 215px;
     margin: 98px auto 64px auto;
     overflow: hidden;
+}
+#ul {
+    width: 1584px;
 }
 .img-intro {
     width: 160px;
